@@ -6,7 +6,9 @@ https://en.wikipedia.org/wiki/Guido_van_Rossum
 This is a module docstring, used to describe the functionality
 of a module and its functions and/or classes.
 """
+
 EXPECTED_BAKE_TIME = 40
+
 def bake_time_remaining(minutes):
     """Calculate the bake time remaining.
  
@@ -18,11 +20,13 @@ def bake_time_remaining(minutes):
     based on the `EXPECTED_BAKE_TIME`.
     """
     return EXPECTED_BAKE_TIME - minutes
+
 def preparation_time_in_minutes(numbers_of_layers):
     """
     each layer take 2 minutes
     """
     return numbers_of_layers * 2
+
 def elapsed_time_in_minutes(numbers_of_layers, elapsed_bake_time):
     """
     it sums:
